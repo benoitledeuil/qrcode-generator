@@ -1,0 +1,9 @@
+<h1>Votre QR Code</h1>
+<% if @qr_code_svg %>
+  <%= image_tag "data:image/png;base64,#{@qr_code_svg}" %>
+<% else %>
+  <p>Aucun QR Code généré.</p>
+<% end %>
+<p>
+  <%= link_to "Générer un autre QR Code", root_path %>
+</p>
