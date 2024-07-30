@@ -25,9 +25,7 @@ class QrcodesController < ApplicationController
     redirect_to qrcode_path
   end
 
-
   def show
     @qr_code_svg = session.delete(:qr_code_svg)
   end
-
 end
