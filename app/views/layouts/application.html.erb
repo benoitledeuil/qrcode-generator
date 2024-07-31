@@ -11,6 +11,10 @@
   </head>
 
   <body>
+        <%= javascript_include_tag 'animation', 'data-turbo-track': 'reload', defer: true %>
+
+     <canvas id="canvas">Canvas is not supported in your browser.</canvas>
+    <canvas id="canvas2">Canvas is not supported in your browser.</canvas>
     <%= yield %>
   </body>
 </html>

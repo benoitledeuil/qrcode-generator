@@ -1,9 +1,4 @@
-<%= javascript_include_tag 'animation', 'data-turbo-track': 'reload', defer: true %>
-
-
 <div class="container">
-  <canvas id="canvas">Canvas is not supported in your browser.</canvas>
-    <canvas id="canvas2">Canvas is not supported in your browser.</canvas>
   <h1>Générateur de QR Code</h1>
     <%= form_with url: qrcodes_path, method: :post, local: true do %>
       <div>
