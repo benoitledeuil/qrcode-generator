@@ -47,7 +47,6 @@ body {
 .btn-black{
   background-color: #000000;
   color: white;
-  border: none;
   padding: 10px 20px;
   border-radius: 5px;
   // cursor: pointer;
@@ -55,4 +54,5 @@ body {
   border: solid;
   border-width: 0.2px;
   border-color: #11a105;
+  text-decoration: none;
 }
